@@ -11,7 +11,17 @@ import SwiftUI
 struct Tutors_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack {
+                Text("Simon Ng")
+                Text("Founder of AppCoda")
+            }
         }
+    }
+}
+
+struct Tutors_2App_Previews: PreviewProvider {
+    static var previews: some App {
+            Tutors_2App()
+        
     }
 }
